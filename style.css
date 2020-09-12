@@ -1,0 +1,91 @@
+.CompanyName{
+    color:navy;
+    font-weight: 10px;
+}
+
+/* Custom CSS */
+html{
+    scroll-behavior: smooth;
+}
+
+.bg-teal{
+    background-color: teal;
+}
+
+.btn-teal{
+    background-color: teal;
+    color:white;
+}
+
+.text-navy{
+    color:navy;
+}
+
+/* carousel styles */
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 3px;
+    cursor: pointer;
+    border-radius: 0%;
+}
+
+.carousel-caption{
+    margin-bottom: 150px;
+}
+
+
+/* Responsive */
+@media (max-width : 576px){
+
+    .carousel .carousel-caption h3{
+        font-size: 30px;
+    }
+
+    .carousel .carousel-caption .btn-teal{
+        font-size: 10px;
+    }
+
+    .carousel-caption{
+        margin-bottom: 0;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
+
+
+@media (max-width : 900px) and (min-width:576px){
+
+    .carousel .carousel-caption h3{
+        font-size: 30px;
+    }
+
+    .carousel .carousel-caption .btn-teal{
+        font-size: 10px;
+    }
+
+    .carousel-caption{
+        margin-bottom: 40px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
+
+@media (max-width : 1200px) and (min-width:900px){
+
+    .carousel .carousel-caption h3{
+        font-size: 30px;
+    }
+
+    .carousel .carousel-caption .btn-teal{
+        font-size: 10px;
+    }
+
+    .carousel-caption{
+        margin-bottom: 40px;
+    }
+    .carousel-caption p{
+        display: none;
+    }
+}
